@@ -1,2 +1,6 @@
 ny_taxi_postgres_data/
-yellow_tripdata_2021-07.csv
+*.csv
+.venv/
+.ropeproject/
+hello.py
+.python-version

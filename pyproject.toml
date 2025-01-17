@@ -1,0 +1,17 @@
+[project]
+name = "dezoomcamp25"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.2.3",
+    "pgcli>=4.1.0",
+    "psycopg2-binary>=2.9.10",
+    "pyarrow>=19.0.0",
+    "sqlalchemy>=2.0.37",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
