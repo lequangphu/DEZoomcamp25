@@ -1,6 +1,7 @@
-ny_taxi_postgres_data/
+*_data/
 *.csv
 .venv/
 .ropeproject/
-hello.py
 .python-version
+temp*
+solution*
