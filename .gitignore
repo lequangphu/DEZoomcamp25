@@ -6,4 +6,5 @@
 temp*
 solution*
 secret*
-*terraform*
+.terraform*
+terraform.tfstate*
