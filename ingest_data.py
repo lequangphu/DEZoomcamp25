@@ -31,7 +31,7 @@ def main(params):
             df = next(df_iter)
             df['lpep_pickup_datetime'] = pd.to_datetime(df['lpep_pickup_datetime'])
             df['lpep_dropoff_datetime'] = pd.to_datetime(df['lpep_dropoff_datetime'])
-            df.to_sql(table1, con=engine, if_exists='append')
+            df.to_sql(table1, con=engine, if_exists='append', index=False)
             t_end = time()
             print(f'Processed 100k rows in {t_end - t_start:.2f} seconds.')
         except StopIteration:
