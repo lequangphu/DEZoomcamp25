@@ -4,7 +4,7 @@
 .ropeproject/
 .python-version
 temp*
-solution*
-secret*
+secrets*
+keys*
 .terraform*
 terraform.tfstate*
